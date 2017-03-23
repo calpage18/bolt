@@ -801,8 +801,22 @@
 .stack-auto,
 .block-auto {
   flex: 0 0 auto;
+  margin-left: 15px;
+  margin-right: 15px; }
+
+.row-auto--no-gutters,
+.stack-auto--no-gutters,
+.block-auto--no-gutters {
+  flex: 0 0 auto;
   margin-left: 0;
   margin-right: 0; }
+
+.row-auto--negative-gutters,
+.stack-auto--negative-gutters,
+.block-auto--negative-gutters {
+  flex: 0 0 auto;
+  margin-left: -15px;
+  margin-right: -15px; }
 
 .row-auto {
   display: flex;
@@ -1318,8 +1332,20 @@
   .stack-auto-sm,
   .block-auto-sm {
     flex: 0 0 auto;
+    margin-left: 15px;
+    margin-right: 15px; }
+  .row-auto-sm--no-gutters,
+  .stack-auto-sm--no-gutters,
+  .block-auto-sm--no-gutters {
+    flex: 0 0 auto;
     margin-left: 0;
     margin-right: 0; }
+  .row-auto-sm--negative-gutters,
+  .stack-auto-sm--negative-gutters,
+  .block-auto-sm--negative-gutters {
+    flex: 0 0 auto;
+    margin-left: -15px;
+    margin-right: -15px; }
   .row-auto-sm {
     display: flex;
     flex-direction: row;
@@ -1832,8 +1858,20 @@
   .stack-auto-md,
   .block-auto-md {
     flex: 0 0 auto;
+    margin-left: 15px;
+    margin-right: 15px; }
+  .row-auto-md--no-gutters,
+  .stack-auto-md--no-gutters,
+  .block-auto-md--no-gutters {
+    flex: 0 0 auto;
     margin-left: 0;
     margin-right: 0; }
+  .row-auto-md--negative-gutters,
+  .stack-auto-md--negative-gutters,
+  .block-auto-md--negative-gutters {
+    flex: 0 0 auto;
+    margin-left: -15px;
+    margin-right: -15px; }
   .row-auto-md {
     display: flex;
     flex-direction: row;
@@ -2346,8 +2384,20 @@
   .stack-auto-lg,
   .block-auto-lg {
     flex: 0 0 auto;
+    margin-left: 15px;
+    margin-right: 15px; }
+  .row-auto-lg--no-gutters,
+  .stack-auto-lg--no-gutters,
+  .block-auto-lg--no-gutters {
+    flex: 0 0 auto;
     margin-left: 0;
     margin-right: 0; }
+  .row-auto-lg--negative-gutters,
+  .stack-auto-lg--negative-gutters,
+  .block-auto-lg--negative-gutters {
+    flex: 0 0 auto;
+    margin-left: -15px;
+    margin-right: -15px; }
   .row-auto-lg {
     display: flex;
     flex-direction: row;

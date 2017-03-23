@@ -67,8 +67,24 @@
   .stack-auto#{$breakpoint},
   .block-auto#{$breakpoint} {
     flex: 0 0 auto;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .row-auto#{$breakpoint}--no-gutters,
+  .stack-auto#{$breakpoint}--no-gutters,
+  .block-auto#{$breakpoint}--no-gutters {
+    flex: 0 0 auto;
     margin-left: 0;
     margin-right: 0;
+  }
+
+  .row-auto#{$breakpoint}--negative-gutters,
+  .stack-auto#{$breakpoint}--negative-gutters,
+  .block-auto#{$breakpoint}--negative-gutters {
+    flex: 0 0 auto;
+    margin-left: -15px;
+    margin-right: -15px;
   }
 
   .row-auto#{$breakpoint} {

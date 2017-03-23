@@ -218,6 +218,9 @@
   padding-left: 15px;
   padding-right: 15px; }
 
+.hidden {
+  display: none; }
+
 /**** DISPLAY VALUES ****/
 .block-1,
 .block-1--no-gutters,
@@ -263,6 +266,9 @@
 .stack-1--negative-gutters {
   margin-left: -15px;
   margin-right: -15px; }
+
+.hidden {
+  display: none; }
 
 /**** DISPLAY VALUES ****/
 .block-2,
@@ -310,6 +316,9 @@
   margin-left: -15px;
   margin-right: -15px; }
 
+.hidden {
+  display: none; }
+
 /**** DISPLAY VALUES ****/
 .block-3,
 .block-3--no-gutters,
@@ -355,6 +364,9 @@
 .stack-3--negative-gutters {
   margin-left: -15px;
   margin-right: -15px; }
+
+.hidden {
+  display: none; }
 
 /**** DISPLAY VALUES ****/
 .block-4,
@@ -402,6 +414,9 @@
   margin-left: -15px;
   margin-right: -15px; }
 
+.hidden {
+  display: none; }
+
 /**** DISPLAY VALUES ****/
 .block-5,
 .block-5--no-gutters,
@@ -447,6 +462,9 @@
 .stack-5--negative-gutters {
   margin-left: -15px;
   margin-right: -15px; }
+
+.hidden {
+  display: none; }
 
 /**** DISPLAY VALUES ****/
 .block-6,
@@ -494,6 +512,9 @@
   margin-left: -15px;
   margin-right: -15px; }
 
+.hidden {
+  display: none; }
+
 /**** DISPLAY VALUES ****/
 .block-7,
 .block-7--no-gutters,
@@ -539,6 +560,9 @@
 .stack-7--negative-gutters {
   margin-left: -15px;
   margin-right: -15px; }
+
+.hidden {
+  display: none; }
 
 /**** DISPLAY VALUES ****/
 .block-8,
@@ -586,6 +610,9 @@
   margin-left: -15px;
   margin-right: -15px; }
 
+.hidden {
+  display: none; }
+
 /**** DISPLAY VALUES ****/
 .block-9,
 .block-9--no-gutters,
@@ -631,6 +658,9 @@
 .stack-9--negative-gutters {
   margin-left: -15px;
   margin-right: -15px; }
+
+.hidden {
+  display: none; }
 
 /**** DISPLAY VALUES ****/
 .block-10,
@@ -678,6 +708,9 @@
   margin-left: -15px;
   margin-right: -15px; }
 
+.hidden {
+  display: none; }
+
 /**** DISPLAY VALUES ****/
 .block-11,
 .block-11--no-gutters,
@@ -723,6 +756,9 @@
 .stack-11--negative-gutters {
   margin-left: -15px;
   margin-right: -15px; }
+
+.hidden {
+  display: none; }
 
 /**** DISPLAY VALUES ****/
 .block-12,
@@ -788,13 +824,12 @@
 .block-auto {
   display: block; }
 
-.hidden {
-  display: none; }
-
 /******************
 ****** SMALL ******
 ******************/
 @media (min-width: 768px) {
+  .hidden-sm {
+    display: none; }
   /**** DISPLAY VALUES ****/
   .block-sm-1,
   .block-sm-1--no-gutters,
@@ -834,6 +869,8 @@
   .stack-sm-1--negative-gutters {
     margin-left: -15px;
     margin-right: -15px; }
+  .hidden-sm {
+    display: none; }
   /**** DISPLAY VALUES ****/
   .block-sm-2,
   .block-sm-2--no-gutters,
@@ -873,6 +910,8 @@
   .stack-sm-2--negative-gutters {
     margin-left: -15px;
     margin-right: -15px; }
+  .hidden-sm {
+    display: none; }
   /**** DISPLAY VALUES ****/
   .block-sm-3,
   .block-sm-3--no-gutters,
@@ -912,6 +951,8 @@
   .stack-sm-3--negative-gutters {
     margin-left: -15px;
     margin-right: -15px; }
+  .hidden-sm {
+    display: none; }
   /**** DISPLAY VALUES ****/
   .block-sm-4,
   .block-sm-4--no-gutters,
@@ -951,6 +992,8 @@
   .stack-sm-4--negative-gutters {
     margin-left: -15px;
     margin-right: -15px; }
+  .hidden-sm {
+    display: none; }
   /**** DISPLAY VALUES ****/
   .block-sm-5,
   .block-sm-5--no-gutters,
@@ -990,6 +1033,8 @@
   .stack-sm-5--negative-gutters {
     margin-left: -15px;
     margin-right: -15px; }
+  .hidden-sm {
+    display: none; }
   /**** DISPLAY VALUES ****/
   .block-sm-6,
   .block-sm-6--no-gutters,
@@ -1029,6 +1074,8 @@
   .stack-sm-6--negative-gutters {
     margin-left: -15px;
     margin-right: -15px; }
+  .hidden-sm {
+    display: none; }
   /**** DISPLAY VALUES ****/
   .block-sm-7,
   .block-sm-7--no-gutters,
@@ -1068,6 +1115,8 @@
   .stack-sm-7--negative-gutters {
     margin-left: -15px;
     margin-right: -15px; }
+  .hidden-sm {
+    display: none; }
   /**** DISPLAY VALUES ****/
   .block-sm-8,
   .block-sm-8--no-gutters,
@@ -1107,6 +1156,8 @@
   .stack-sm-8--negative-gutters {
     margin-left: -15px;
     margin-right: -15px; }
+  .hidden-sm {
+    display: none; }
   /**** DISPLAY VALUES ****/
   .block-sm-9,
   .block-sm-9--no-gutters,
@@ -1146,6 +1197,8 @@
   .stack-sm-9--negative-gutters {
     margin-left: -15px;
     margin-right: -15px; }
+  .hidden-sm {
+    display: none; }
   /**** DISPLAY VALUES ****/
   .block-sm-10,
   .block-sm-10--no-gutters,
@@ -1185,6 +1238,8 @@
   .stack-sm-10--negative-gutters {
     margin-left: -15px;
     margin-right: -15px; }
+  .hidden-sm {
+    display: none; }
   /**** DISPLAY VALUES ****/
   .block-sm-11,
   .block-sm-11--no-gutters,
@@ -1224,6 +1279,8 @@
   .stack-sm-11--negative-gutters {
     margin-left: -15px;
     margin-right: -15px; }
+  .hidden-sm {
+    display: none; }
   /**** DISPLAY VALUES ****/
   .block-sm-12,
   .block-sm-12--no-gutters,
@@ -1276,14 +1333,14 @@
     display: flex;
     flex-direction: column; }
   .block-auto-sm {
-    display: block; }
-  .hidden-sm {
-    display: none; } }
+    display: block; } }
 
 /*******************
 ****** MEDIUM ******
 *******************/
 @media (min-width: 992px) {
+  .hidden-md {
+    display: none; }
   /**** DISPLAY VALUES ****/
   .block-md-1,
   .block-md-1--no-gutters,
@@ -1323,6 +1380,8 @@
   .stack-md-1--negative-gutters {
     margin-left: -15px;
     margin-right: -15px; }
+  .hidden-md {
+    display: none; }
   /**** DISPLAY VALUES ****/
   .block-md-2,
   .block-md-2--no-gutters,
@@ -1362,6 +1421,8 @@
   .stack-md-2--negative-gutters {
     margin-left: -15px;
     margin-right: -15px; }
+  .hidden-md {
+    display: none; }
   /**** DISPLAY VALUES ****/
   .block-md-3,
   .block-md-3--no-gutters,
@@ -1401,6 +1462,8 @@
   .stack-md-3--negative-gutters {
     margin-left: -15px;
     margin-right: -15px; }
+  .hidden-md {
+    display: none; }
   /**** DISPLAY VALUES ****/
   .block-md-4,
   .block-md-4--no-gutters,
@@ -1440,6 +1503,8 @@
   .stack-md-4--negative-gutters {
     margin-left: -15px;
     margin-right: -15px; }
+  .hidden-md {
+    display: none; }
   /**** DISPLAY VALUES ****/
   .block-md-5,
   .block-md-5--no-gutters,
@@ -1479,6 +1544,8 @@
   .stack-md-5--negative-gutters {
     margin-left: -15px;
     margin-right: -15px; }
+  .hidden-md {
+    display: none; }
   /**** DISPLAY VALUES ****/
   .block-md-6,
   .block-md-6--no-gutters,
@@ -1518,6 +1585,8 @@
   .stack-md-6--negative-gutters {
     margin-left: -15px;
     margin-right: -15px; }
+  .hidden-md {
+    display: none; }
   /**** DISPLAY VALUES ****/
   .block-md-7,
   .block-md-7--no-gutters,
@@ -1557,6 +1626,8 @@
   .stack-md-7--negative-gutters {
     margin-left: -15px;
     margin-right: -15px; }
+  .hidden-md {
+    display: none; }
   /**** DISPLAY VALUES ****/
   .block-md-8,
   .block-md-8--no-gutters,
@@ -1596,6 +1667,8 @@
   .stack-md-8--negative-gutters {
     margin-left: -15px;
     margin-right: -15px; }
+  .hidden-md {
+    display: none; }
   /**** DISPLAY VALUES ****/
   .block-md-9,
   .block-md-9--no-gutters,
@@ -1635,6 +1708,8 @@
   .stack-md-9--negative-gutters {
     margin-left: -15px;
     margin-right: -15px; }
+  .hidden-md {
+    display: none; }
   /**** DISPLAY VALUES ****/
   .block-md-10,
   .block-md-10--no-gutters,
@@ -1674,6 +1749,8 @@
   .stack-md-10--negative-gutters {
     margin-left: -15px;
     margin-right: -15px; }
+  .hidden-md {
+    display: none; }
   /**** DISPLAY VALUES ****/
   .block-md-11,
   .block-md-11--no-gutters,
@@ -1713,6 +1790,8 @@
   .stack-md-11--negative-gutters {
     margin-left: -15px;
     margin-right: -15px; }
+  .hidden-md {
+    display: none; }
   /**** DISPLAY VALUES ****/
   .block-md-12,
   .block-md-12--no-gutters,
@@ -1765,14 +1844,14 @@
     display: flex;
     flex-direction: column; }
   .block-auto-md {
-    display: block; }
-  .hidden-md {
-    display: none; } }
+    display: block; } }
 
 /******************
 ****** LARGE ******
 ******************/
 @media (min-width: 1200px) {
+  .hidden-lg {
+    display: none; }
   /**** DISPLAY VALUES ****/
   .block-lg-1,
   .block-lg-1--no-gutters,
@@ -1812,6 +1891,8 @@
   .stack-lg-1--negative-gutters {
     margin-left: -15px;
     margin-right: -15px; }
+  .hidden-lg {
+    display: none; }
   /**** DISPLAY VALUES ****/
   .block-lg-2,
   .block-lg-2--no-gutters,
@@ -1851,6 +1932,8 @@
   .stack-lg-2--negative-gutters {
     margin-left: -15px;
     margin-right: -15px; }
+  .hidden-lg {
+    display: none; }
   /**** DISPLAY VALUES ****/
   .block-lg-3,
   .block-lg-3--no-gutters,
@@ -1890,6 +1973,8 @@
   .stack-lg-3--negative-gutters {
     margin-left: -15px;
     margin-right: -15px; }
+  .hidden-lg {
+    display: none; }
   /**** DISPLAY VALUES ****/
   .block-lg-4,
   .block-lg-4--no-gutters,
@@ -1929,6 +2014,8 @@
   .stack-lg-4--negative-gutters {
     margin-left: -15px;
     margin-right: -15px; }
+  .hidden-lg {
+    display: none; }
   /**** DISPLAY VALUES ****/
   .block-lg-5,
   .block-lg-5--no-gutters,
@@ -1968,6 +2055,8 @@
   .stack-lg-5--negative-gutters {
     margin-left: -15px;
     margin-right: -15px; }
+  .hidden-lg {
+    display: none; }
   /**** DISPLAY VALUES ****/
   .block-lg-6,
   .block-lg-6--no-gutters,
@@ -2007,6 +2096,8 @@
   .stack-lg-6--negative-gutters {
     margin-left: -15px;
     margin-right: -15px; }
+  .hidden-lg {
+    display: none; }
   /**** DISPLAY VALUES ****/
   .block-lg-7,
   .block-lg-7--no-gutters,
@@ -2046,6 +2137,8 @@
   .stack-lg-7--negative-gutters {
     margin-left: -15px;
     margin-right: -15px; }
+  .hidden-lg {
+    display: none; }
   /**** DISPLAY VALUES ****/
   .block-lg-8,
   .block-lg-8--no-gutters,
@@ -2085,6 +2178,8 @@
   .stack-lg-8--negative-gutters {
     margin-left: -15px;
     margin-right: -15px; }
+  .hidden-lg {
+    display: none; }
   /**** DISPLAY VALUES ****/
   .block-lg-9,
   .block-lg-9--no-gutters,
@@ -2124,6 +2219,8 @@
   .stack-lg-9--negative-gutters {
     margin-left: -15px;
     margin-right: -15px; }
+  .hidden-lg {
+    display: none; }
   /**** DISPLAY VALUES ****/
   .block-lg-10,
   .block-lg-10--no-gutters,
@@ -2163,6 +2260,8 @@
   .stack-lg-10--negative-gutters {
     margin-left: -15px;
     margin-right: -15px; }
+  .hidden-lg {
+    display: none; }
   /**** DISPLAY VALUES ****/
   .block-lg-11,
   .block-lg-11--no-gutters,
@@ -2202,6 +2301,8 @@
   .stack-lg-11--negative-gutters {
     margin-left: -15px;
     margin-right: -15px; }
+  .hidden-lg {
+    display: none; }
   /**** DISPLAY VALUES ****/
   .block-lg-12,
   .block-lg-12--no-gutters,
@@ -2254,9 +2355,7 @@
     display: flex;
     flex-direction: column; }
   .block-auto-lg {
-    display: block; }
-  .hidden-lg {
-    display: none; } }
+    display: block; } }
 
 .modal {
   position: fixed;

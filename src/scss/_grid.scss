@@ -74,6 +74,7 @@
   .row-auto#{$breakpoint} {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
   }
 
   .stack-auto#{$breakpoint} {

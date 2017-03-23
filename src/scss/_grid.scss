@@ -1,112 +1,3 @@
-/********************
-****** MIXINS *******
-********************/
-
-@mixin sizedElements($breakpoint, $i) {
-
-  /**** DISPLAY VALUES ****/
-  .block#{$breakpoint}-#{$i},
-  .block#{$breakpoint}-#{$i}--no-gutters,
-  .block#{$breakpoint}-#{$i}--negative-gutters {
-    display: block;
-  }
-
-  .row#{$breakpoint}-#{$i},
-  .row#{$breakpoint}-#{$i}--no-gutters,
-  .row#{$breakpoint}-#{$i}--negative-gutters,
-  .stack#{$breakpoint}-#{$i},
-  .stack#{$breakpoint}-#{$i}--no-gutters,
-  .stack#{$breakpoint}-#{$i}--negative-gutters {
-    display: flex;
-    align-items: stretch;
-  }
-
-  .row#{$breakpoint}-#{$i},
-  .row#{$breakpoint}-#{$i}--no-gutters,
-  .row#{$breakpoint}-#{$i}--negative-gutters {
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-
-  .stack#{$breakpoint}-#{$i},
-  .stack#{$breakpoint}-#{$i}--no-gutters,
-  .stack#{$breakpoint}-#{$i}--negative-gutters {
-    flex-direction: column;
-  }
-
-  /***** MARGINS ****/
-
-  .row#{$breakpoint}-#{$i},
-  .stack#{$breakpoint}-#{$i},
-  .block#{$breakpoint}-#{$i} {
-    margin-left: 15px;
-    margin-right: 15px;
-    flex: 0 0 calc(#{percentage($i / 12)} - 30px);
-  }
-
-  .block#{$breakpoint}-#{$i}--no-gutters,
-  .row#{$breakpoint}-#{$i}--no-gutters,
-  .stack#{$breakpoint}-#{$i}--no-gutters {
-    margin-left: 0;
-    margin-right: 0;
-    flex: 0 0 percentage($i / 12);
-  }
-
-  .block#{$breakpoint}-#{$i}--negative-gutters,
-  .row#{$breakpoint}-#{$i}--negative-gutters,
-  .stack#{$breakpoint}-#{$i}--negative-gutters {
-    margin-left: -15px;
-    margin-right: -15px;
-    flex: 0 0 calc(#{percentage($i / 12)} + 30px);
-  }
-}
-
-@mixin nonSizedElements($breakpoint) {
-
-  .row-auto#{$breakpoint},
-  .stack-auto#{$breakpoint},
-  .block-auto#{$breakpoint} {
-    flex: 0 0 auto;
-    margin-left: 15px;
-    margin-right: 15px;
-  }
-
-  .row-auto#{$breakpoint}--no-gutters,
-  .stack-auto#{$breakpoint}--no-gutters,
-  .block-auto#{$breakpoint}--no-gutters {
-    flex: 0 0 auto;
-    margin-left: 0;
-    margin-right: 0;
-  }
-
-  .row-auto#{$breakpoint}--negative-gutters,
-  .stack-auto#{$breakpoint}--negative-gutters,
-  .block-auto#{$breakpoint}--negative-gutters {
-    flex: 0 0 auto;
-    margin-left: -15px;
-    margin-right: -15px;
-  }
-
-  .row-auto#{$breakpoint},
-  .row-auto#{$breakpoint}--no-gutters,
-  .row-auto#{$breakpoint}--negative-gutters, {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-
-  .stack-auto#{$breakpoint},
-  .stack-auto#{$breakpoint}--no-gutters,
-  .stack-auto#{$breakpoint}--negative-gutters {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .block-auto#{$breakpoint} {
-    display: block;
-  }
-}
-
 /*************************
 ****** MOBILE FIRST ******
 *************************/
@@ -131,15 +22,48 @@
   padding-right: 15px;
 }
 
-.hidden {
+.xs-hidden {
   display: none;
 }
 
-@for $i from 1 through 12 {
-  @include sizedElements('', $i);
+.xs-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
-@include nonSizedElements('');
+.xs-stack {
+  display: flex;
+  flex-direction: column;
+}
+
+.xs-block {
+  display: block;
+}
+
+@for $i from 1 through 12 {
+  .xs-#{$i} {
+    margin-left: 15px;
+    margin-right: 15px;
+    flex: 0 0 calc(#{percentage($i / 12)} - 30px);
+  }
+
+  .xs-#{$i}--no-gutters {
+    margin-left: 0;
+    margin-right: 0;
+    flex: 0 0 percentage($i / 12);
+  }
+
+  .xs-#{$i}--negative-gutters {
+    margin-left: -15px;
+    margin-right: -15px;
+    flex: 0 0 calc(#{percentage($i / 12)} + 30px);
+  }
+}
+
+.xs-auto {
+  flex: 0 0 auto;
+}
 
 /******************
 ****** SMALL ******
@@ -151,11 +75,44 @@
     display: none;
   }
 
-  @for $i from 1 through 12 {
-    @include sizedElements('-sm', $i);
+  .sm-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 
-  @include nonSizedElements('-sm');
+  .sm-stack {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sm-block {
+    display: block;
+  }
+
+  @for $i from 1 through 12 {
+    .sm-#{$i} {
+      margin-left: 15px;
+      margin-right: 15px;
+      flex: 0 0 calc(#{percentage($i / 12)} - 30px);
+    }
+
+    .sm-#{$i}--no-gutters {
+      margin-left: 0;
+      margin-right: 0;
+      flex: 0 0 percentage($i / 12);
+    }
+
+    .sm-#{$i}--negative-gutters {
+      margin-left: -15px;
+      margin-right: -15px;
+      flex: 0 0 calc(#{percentage($i / 12)} + 30px);
+    }
+  }
+
+  .sm-auto {
+    flex: 0 0 auto;
+  }
 }
 
 /*******************
@@ -168,11 +125,44 @@
     display: none;
   }
 
-  @for $i from 1 through 12 {
-    @include sizedElements('-md', $i);
+  .md-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 
-  @include nonSizedElements('-md');
+  .md-stack {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .md-block {
+    display: block;
+  }
+
+  @for $i from 1 through 12 {
+    .md-#{$i} {
+      margin-left: 15px;
+      margin-right: 15px;
+      flex: 0 0 calc(#{percentage($i / 12)} - 30px);
+    }
+
+    .md-#{$i}--no-gutters {
+      margin-left: 0;
+      margin-right: 0;
+      flex: 0 0 percentage($i / 12);
+    }
+
+    .md-#{$i}--negative-gutters {
+      margin-left: -15px;
+      margin-right: -15px;
+      flex: 0 0 calc(#{percentage($i / 12)} + 30px);
+    }
+  }
+
+  .md-auto {
+    flex: 0 0 auto;
+  }
 }
 
 /******************
@@ -185,9 +175,89 @@
     display: none;
   }
 
-  @for $i from 1 through 12 {
-    @include sizedElements('-lg', $i);
+  .lg-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 
-  @include nonSizedElements('-lg');
+  .lg-stack {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .lg-block {
+    display: block;
+  }
+
+  @for $i from 1 through 12 {
+    .lg-#{$i} {
+      margin-left: 15px;
+      margin-right: 15px;
+      flex: 0 0 calc(#{percentage($i / 12)} - 30px);
+    }
+
+    .lg-#{$i}--no-gutters {
+      margin-left: 0;
+      margin-right: 0;
+      flex: 0 0 percentage($i / 12);
+    }
+
+    .lg-#{$i}--negative-gutters {
+      margin-left: -15px;
+      margin-right: -15px;
+      flex: 0 0 calc(#{percentage($i / 12)} + 30px);
+    }
+  }
+
+  .lg-auto {
+    flex: 0 0 auto;
+  }
+}
+
+
+@media (min-width: $screen-xl-min) {
+
+  .hidden-xl {
+    display: none;
+  }
+
+  .xl-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .xl-stack {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .xl-block {
+    display: block;
+  }
+
+  @for $i from 1 through 12 {
+    .xl-#{$i} {
+      margin-left: 15px;
+      margin-right: 15px;
+      flex: 0 0 calc(#{percentage($i / 12)} - 30px);
+    }
+
+    .xl-#{$i}--no-gutters {
+      margin-left: 0;
+      margin-right: 0;
+      flex: 0 0 percentage($i / 12);
+    }
+
+    .xl-#{$i}--negative-gutters {
+      margin-left: -15px;
+      margin-right: -15px;
+      flex: 0 0 calc(#{percentage($i / 12)} + 30px);
+    }
+  }
+
+  .xl-auto {
+    flex: 0 0 auto;
+  }
 }

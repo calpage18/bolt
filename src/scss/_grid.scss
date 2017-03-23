@@ -25,6 +25,7 @@
   .row#{$breakpoint}-#{$i}--no-gutters,
   .row#{$breakpoint}-#{$i}--negative-gutters {
     flex-direction: row;
+    flex-wrap: wrap;
   }
 
   .stack#{$breakpoint}-#{$i},

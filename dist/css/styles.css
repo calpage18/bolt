@@ -239,7 +239,8 @@
 .row-1,
 .row-1--no-gutters,
 .row-1--negative-gutters {
-  flex-direction: row; }
+  flex-direction: row;
+  flex-wrap: wrap; }
 
 .stack-1,
 .stack-1--no-gutters,
@@ -286,7 +287,8 @@
 .row-2,
 .row-2--no-gutters,
 .row-2--negative-gutters {
-  flex-direction: row; }
+  flex-direction: row;
+  flex-wrap: wrap; }
 
 .stack-2,
 .stack-2--no-gutters,
@@ -333,7 +335,8 @@
 .row-3,
 .row-3--no-gutters,
 .row-3--negative-gutters {
-  flex-direction: row; }
+  flex-direction: row;
+  flex-wrap: wrap; }
 
 .stack-3,
 .stack-3--no-gutters,
@@ -380,7 +383,8 @@
 .row-4,
 .row-4--no-gutters,
 .row-4--negative-gutters {
-  flex-direction: row; }
+  flex-direction: row;
+  flex-wrap: wrap; }
 
 .stack-4,
 .stack-4--no-gutters,
@@ -427,7 +431,8 @@
 .row-5,
 .row-5--no-gutters,
 .row-5--negative-gutters {
-  flex-direction: row; }
+  flex-direction: row;
+  flex-wrap: wrap; }
 
 .stack-5,
 .stack-5--no-gutters,
@@ -474,7 +479,8 @@
 .row-6,
 .row-6--no-gutters,
 .row-6--negative-gutters {
-  flex-direction: row; }
+  flex-direction: row;
+  flex-wrap: wrap; }
 
 .stack-6,
 .stack-6--no-gutters,
@@ -521,7 +527,8 @@
 .row-7,
 .row-7--no-gutters,
 .row-7--negative-gutters {
-  flex-direction: row; }
+  flex-direction: row;
+  flex-wrap: wrap; }
 
 .stack-7,
 .stack-7--no-gutters,
@@ -568,7 +575,8 @@
 .row-8,
 .row-8--no-gutters,
 .row-8--negative-gutters {
-  flex-direction: row; }
+  flex-direction: row;
+  flex-wrap: wrap; }
 
 .stack-8,
 .stack-8--no-gutters,
@@ -615,7 +623,8 @@
 .row-9,
 .row-9--no-gutters,
 .row-9--negative-gutters {
-  flex-direction: row; }
+  flex-direction: row;
+  flex-wrap: wrap; }
 
 .stack-9,
 .stack-9--no-gutters,
@@ -662,7 +671,8 @@
 .row-10,
 .row-10--no-gutters,
 .row-10--negative-gutters {
-  flex-direction: row; }
+  flex-direction: row;
+  flex-wrap: wrap; }
 
 .stack-10,
 .stack-10--no-gutters,
@@ -709,7 +719,8 @@
 .row-11,
 .row-11--no-gutters,
 .row-11--negative-gutters {
-  flex-direction: row; }
+  flex-direction: row;
+  flex-wrap: wrap; }
 
 .stack-11,
 .stack-11--no-gutters,
@@ -756,7 +767,8 @@
 .row-12,
 .row-12--no-gutters,
 .row-12--negative-gutters {
-  flex-direction: row; }
+  flex-direction: row;
+  flex-wrap: wrap; }
 
 .stack-12,
 .stack-12--no-gutters,
@@ -825,7 +837,8 @@
   .row-sm-1,
   .row-sm-1--no-gutters,
   .row-sm-1--negative-gutters {
-    flex-direction: row; }
+    flex-direction: row;
+    flex-wrap: wrap; }
   .stack-sm-1,
   .stack-sm-1--no-gutters,
   .stack-sm-1--negative-gutters {
@@ -865,7 +878,8 @@
   .row-sm-2,
   .row-sm-2--no-gutters,
   .row-sm-2--negative-gutters {
-    flex-direction: row; }
+    flex-direction: row;
+    flex-wrap: wrap; }
   .stack-sm-2,
   .stack-sm-2--no-gutters,
   .stack-sm-2--negative-gutters {
@@ -905,7 +919,8 @@
   .row-sm-3,
   .row-sm-3--no-gutters,
   .row-sm-3--negative-gutters {
-    flex-direction: row; }
+    flex-direction: row;
+    flex-wrap: wrap; }
   .stack-sm-3,
   .stack-sm-3--no-gutters,
   .stack-sm-3--negative-gutters {
@@ -945,7 +960,8 @@
   .row-sm-4,
   .row-sm-4--no-gutters,
   .row-sm-4--negative-gutters {
-    flex-direction: row; }
+    flex-direction: row;
+    flex-wrap: wrap; }
   .stack-sm-4,
   .stack-sm-4--no-gutters,
   .stack-sm-4--negative-gutters {
@@ -985,7 +1001,8 @@
   .row-sm-5,
   .row-sm-5--no-gutters,
   .row-sm-5--negative-gutters {
-    flex-direction: row; }
+    flex-direction: row;
+    flex-wrap: wrap; }
   .stack-sm-5,
   .stack-sm-5--no-gutters,
   .stack-sm-5--negative-gutters {
@@ -1025,7 +1042,8 @@
   .row-sm-6,
   .row-sm-6--no-gutters,
   .row-sm-6--negative-gutters {
-    flex-direction: row; }
+    flex-direction: row;
+    flex-wrap: wrap; }
   .stack-sm-6,
   .stack-sm-6--no-gutters,
   .stack-sm-6--negative-gutters {
@@ -1065,7 +1083,8 @@
   .row-sm-7,
   .row-sm-7--no-gutters,
   .row-sm-7--negative-gutters {
-    flex-direction: row; }
+    flex-direction: row;
+    flex-wrap: wrap; }
   .stack-sm-7,
   .stack-sm-7--no-gutters,
   .stack-sm-7--negative-gutters {
@@ -1105,7 +1124,8 @@
   .row-sm-8,
   .row-sm-8--no-gutters,
   .row-sm-8--negative-gutters {
-    flex-direction: row; }
+    flex-direction: row;
+    flex-wrap: wrap; }
   .stack-sm-8,
   .stack-sm-8--no-gutters,
   .stack-sm-8--negative-gutters {
@@ -1145,7 +1165,8 @@
   .row-sm-9,
   .row-sm-9--no-gutters,
   .row-sm-9--negative-gutters {
-    flex-direction: row; }
+    flex-direction: row;
+    flex-wrap: wrap; }
   .stack-sm-9,
   .stack-sm-9--no-gutters,
   .stack-sm-9--negative-gutters {
@@ -1185,7 +1206,8 @@
   .row-sm-10,
   .row-sm-10--no-gutters,
   .row-sm-10--negative-gutters {
-    flex-direction: row; }
+    flex-direction: row;
+    flex-wrap: wrap; }
   .stack-sm-10,
   .stack-sm-10--no-gutters,
   .stack-sm-10--negative-gutters {
@@ -1225,7 +1247,8 @@
   .row-sm-11,
   .row-sm-11--no-gutters,
   .row-sm-11--negative-gutters {
-    flex-direction: row; }
+    flex-direction: row;
+    flex-wrap: wrap; }
   .stack-sm-11,
   .stack-sm-11--no-gutters,
   .stack-sm-11--negative-gutters {
@@ -1265,7 +1288,8 @@
   .row-sm-12,
   .row-sm-12--no-gutters,
   .row-sm-12--negative-gutters {
-    flex-direction: row; }
+    flex-direction: row;
+    flex-wrap: wrap; }
   .stack-sm-12,
   .stack-sm-12--no-gutters,
   .stack-sm-12--negative-gutters {
@@ -1326,7 +1350,8 @@
   .row-md-1,
   .row-md-1--no-gutters,
   .row-md-1--negative-gutters {
-    flex-direction: row; }
+    flex-direction: row;
+    flex-wrap: wrap; }
   .stack-md-1,
   .stack-md-1--no-gutters,
   .stack-md-1--negative-gutters {
@@ -1366,7 +1391,8 @@
   .row-md-2,
   .row-md-2--no-gutters,
   .row-md-2--negative-gutters {
-    flex-direction: row; }
+    flex-direction: row;
+    flex-wrap: wrap; }
   .stack-md-2,
   .stack-md-2--no-gutters,
   .stack-md-2--negative-gutters {
@@ -1406,7 +1432,8 @@
   .row-md-3,
   .row-md-3--no-gutters,
   .row-md-3--negative-gutters {
-    flex-direction: row; }
+    flex-direction: row;
+    flex-wrap: wrap; }
   .stack-md-3,
   .stack-md-3--no-gutters,
   .stack-md-3--negative-gutters {
@@ -1446,7 +1473,8 @@
   .row-md-4,
   .row-md-4--no-gutters,
   .row-md-4--negative-gutters {
-    flex-direction: row; }
+    flex-direction: row;
+    flex-wrap: wrap; }
   .stack-md-4,
   .stack-md-4--no-gutters,
   .stack-md-4--negative-gutters {
@@ -1486,7 +1514,8 @@
   .row-md-5,
   .row-md-5--no-gutters,
   .row-md-5--negative-gutters {
-    flex-direction: row; }
+    flex-direction: row;
+    flex-wrap: wrap; }
   .stack-md-5,
   .stack-md-5--no-gutters,
   .stack-md-5--negative-gutters {
@@ -1526,7 +1555,8 @@
   .row-md-6,
   .row-md-6--no-gutters,
   .row-md-6--negative-gutters {
-    flex-direction: row; }
+    flex-direction: row;
+    flex-wrap: wrap; }
   .stack-md-6,
   .stack-md-6--no-gutters,
   .stack-md-6--negative-gutters {
@@ -1566,7 +1596,8 @@
   .row-md-7,
   .row-md-7--no-gutters,
   .row-md-7--negative-gutters {
-    flex-direction: row; }
+    flex-direction: row;
+    flex-wrap: wrap; }
   .stack-md-7,
   .stack-md-7--no-gutters,
   .stack-md-7--negative-gutters {
@@ -1606,7 +1637,8 @@
   .row-md-8,
   .row-md-8--no-gutters,
   .row-md-8--negative-gutters {
-    flex-direction: row; }
+    flex-direction: row;
+    flex-wrap: wrap; }
   .stack-md-8,
   .stack-md-8--no-gutters,
   .stack-md-8--negative-gutters {
@@ -1646,7 +1678,8 @@
   .row-md-9,
   .row-md-9--no-gutters,
   .row-md-9--negative-gutters {
-    flex-direction: row; }
+    flex-direction: row;
+    flex-wrap: wrap; }
   .stack-md-9,
   .stack-md-9--no-gutters,
   .stack-md-9--negative-gutters {
@@ -1686,7 +1719,8 @@
   .row-md-10,
   .row-md-10--no-gutters,
   .row-md-10--negative-gutters {
-    flex-direction: row; }
+    flex-direction: row;
+    flex-wrap: wrap; }
   .stack-md-10,
   .stack-md-10--no-gutters,
   .stack-md-10--negative-gutters {
@@ -1726,7 +1760,8 @@
   .row-md-11,
   .row-md-11--no-gutters,
   .row-md-11--negative-gutters {
-    flex-direction: row; }
+    flex-direction: row;
+    flex-wrap: wrap; }
   .stack-md-11,
   .stack-md-11--no-gutters,
   .stack-md-11--negative-gutters {
@@ -1766,7 +1801,8 @@
   .row-md-12,
   .row-md-12--no-gutters,
   .row-md-12--negative-gutters {
-    flex-direction: row; }
+    flex-direction: row;
+    flex-wrap: wrap; }
   .stack-md-12,
   .stack-md-12--no-gutters,
   .stack-md-12--negative-gutters {
@@ -1827,7 +1863,8 @@
   .row-lg-1,
   .row-lg-1--no-gutters,
   .row-lg-1--negative-gutters {
-    flex-direction: row; }
+    flex-direction: row;
+    flex-wrap: wrap; }
   .stack-lg-1,
   .stack-lg-1--no-gutters,
   .stack-lg-1--negative-gutters {
@@ -1867,7 +1904,8 @@
   .row-lg-2,
   .row-lg-2--no-gutters,
   .row-lg-2--negative-gutters {
-    flex-direction: row; }
+    flex-direction: row;
+    flex-wrap: wrap; }
   .stack-lg-2,
   .stack-lg-2--no-gutters,
   .stack-lg-2--negative-gutters {
@@ -1907,7 +1945,8 @@
   .row-lg-3,
   .row-lg-3--no-gutters,
   .row-lg-3--negative-gutters {
-    flex-direction: row; }
+    flex-direction: row;
+    flex-wrap: wrap; }
   .stack-lg-3,
   .stack-lg-3--no-gutters,
   .stack-lg-3--negative-gutters {
@@ -1947,7 +1986,8 @@
   .row-lg-4,
   .row-lg-4--no-gutters,
   .row-lg-4--negative-gutters {
-    flex-direction: row; }
+    flex-direction: row;
+    flex-wrap: wrap; }
   .stack-lg-4,
   .stack-lg-4--no-gutters,
   .stack-lg-4--negative-gutters {
@@ -1987,7 +2027,8 @@
   .row-lg-5,
   .row-lg-5--no-gutters,
   .row-lg-5--negative-gutters {
-    flex-direction: row; }
+    flex-direction: row;
+    flex-wrap: wrap; }
   .stack-lg-5,
   .stack-lg-5--no-gutters,
   .stack-lg-5--negative-gutters {
@@ -2027,7 +2068,8 @@
   .row-lg-6,
   .row-lg-6--no-gutters,
   .row-lg-6--negative-gutters {
-    flex-direction: row; }
+    flex-direction: row;
+    flex-wrap: wrap; }
   .stack-lg-6,
   .stack-lg-6--no-gutters,
   .stack-lg-6--negative-gutters {
@@ -2067,7 +2109,8 @@
   .row-lg-7,
   .row-lg-7--no-gutters,
   .row-lg-7--negative-gutters {
-    flex-direction: row; }
+    flex-direction: row;
+    flex-wrap: wrap; }
   .stack-lg-7,
   .stack-lg-7--no-gutters,
   .stack-lg-7--negative-gutters {
@@ -2107,7 +2150,8 @@
   .row-lg-8,
   .row-lg-8--no-gutters,
   .row-lg-8--negative-gutters {
-    flex-direction: row; }
+    flex-direction: row;
+    flex-wrap: wrap; }
   .stack-lg-8,
   .stack-lg-8--no-gutters,
   .stack-lg-8--negative-gutters {
@@ -2147,7 +2191,8 @@
   .row-lg-9,
   .row-lg-9--no-gutters,
   .row-lg-9--negative-gutters {
-    flex-direction: row; }
+    flex-direction: row;
+    flex-wrap: wrap; }
   .stack-lg-9,
   .stack-lg-9--no-gutters,
   .stack-lg-9--negative-gutters {
@@ -2187,7 +2232,8 @@
   .row-lg-10,
   .row-lg-10--no-gutters,
   .row-lg-10--negative-gutters {
-    flex-direction: row; }
+    flex-direction: row;
+    flex-wrap: wrap; }
   .stack-lg-10,
   .stack-lg-10--no-gutters,
   .stack-lg-10--negative-gutters {
@@ -2227,7 +2273,8 @@
   .row-lg-11,
   .row-lg-11--no-gutters,
   .row-lg-11--negative-gutters {
-    flex-direction: row; }
+    flex-direction: row;
+    flex-wrap: wrap; }
   .stack-lg-11,
   .stack-lg-11--no-gutters,
   .stack-lg-11--negative-gutters {
@@ -2267,7 +2314,8 @@
   .row-lg-12,
   .row-lg-12--no-gutters,
   .row-lg-12--negative-gutters {
-    flex-direction: row; }
+    flex-direction: row;
+    flex-wrap: wrap; }
   .stack-lg-12,
   .stack-lg-12--no-gutters,
   .stack-lg-12--negative-gutters {

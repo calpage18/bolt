@@ -195,9 +195,6 @@
   .button--half {
     padding: 6px 40px; } }
 
-/*************************
-****** MOBILE FIRST ******
-*************************/
 .container,
 .container--padded {
   width: 100%;
@@ -221,11 +218,14 @@
 .xs-row {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  align-items: stretch; }
 
 .xs-stack {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: stretch; }
 
 .xs-block {
   display: block; }
@@ -434,10 +434,13 @@
   .sm-row {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    align-items: stretch; }
   .sm-stack {
     display: flex;
-    flex-direction: column; }
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: stretch; }
   .sm-block {
     display: block; }
   .sm-1 {
@@ -606,10 +609,13 @@
   .md-row {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    align-items: stretch; }
   .md-stack {
     display: flex;
-    flex-direction: column; }
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: stretch; }
   .md-block {
     display: block; }
   .md-1 {
@@ -758,8 +764,8 @@
     flex: 0 0 calc(100% + 30px); }
   .md-auto {
     flex: 0 0 auto;
-    margin-left: 15px;
-    margin-right: 15px; }
+    margin-left: -15px;
+    margin-right: -15px; }
   .md-auto--no-gutters {
     flex: 0 0 auto;
     margin-left: 0;
@@ -778,10 +784,13 @@
   .lg-row {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    align-items: stretch; }
   .lg-stack {
     display: flex;
-    flex-direction: column; }
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: stretch; }
   .lg-block {
     display: block; }
   .lg-1 {
@@ -947,10 +956,13 @@
   .xl-row {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    align-items: stretch; }
   .xl-stack {
     display: flex;
-    flex-direction: column; }
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: stretch; }
   .xl-block {
     display: block; }
   .xl-1 {

@@ -1,6 +1,31 @@
-/*************************
-****** MOBILE FIRST ******
-*************************/
+@mixin base-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+@mixin base-stack {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: stretch;
+}
+
+@mixin no-gutters {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+@mixin gutters {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+@mixin negative-gutters {
+  margin-left: -15px;
+  margin-right: -15px;
+}
 
 .container,
 .container--padded {
@@ -27,14 +52,11 @@
 }
 
 .xs-row {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  @include base-row;
 }
 
 .xs-stack {
-  display: flex;
-  flex-direction: column;
+  @include base-stack;
 }
 
 .xs-block {
@@ -43,40 +65,34 @@
 
 @for $i from 1 through 12 {
   .xs-#{$i} {
-    margin-left: 15px;
-    margin-right: 15px;
+    @include gutters;
     flex: 0 0 calc(#{percentage($i / 12)} - 30px);
   }
 
   .xs-#{$i}--no-gutters {
-    margin-left: 0;
-    margin-right: 0;
+    @include no-gutters;
     flex: 0 0 percentage($i / 12);
   }
 
   .xs-#{$i}--negative-gutters {
-    margin-left: -15px;
-    margin-right: -15px;
+    @include negative-gutters;
     flex: 0 0 calc(#{percentage($i / 12)} + 30px);
   }
 }
 
 .xs-auto {
   flex: 0 0 auto;
-  margin-left: 15px;
-  margin-right: 15px;
+  @include gutters;
 }
 
 .xs-auto--no-gutters {
   flex: 0 0 auto;
-  margin-left: 0;
-  margin-right: 0;
+  @include no-gutters;
 }
 
 .xs-auto--negative-gutters {
   flex: 0 0 auto;
-  margin-left: -15px;
-  margin-right: -15px;
+  @include negative-gutters;
 }
 
 /******************
@@ -90,14 +106,11 @@
   }
 
   .sm-row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    @include base-row;
   }
 
   .sm-stack {
-    display: flex;
-    flex-direction: column;
+    @include base-stack;
   }
 
   .sm-block {
@@ -106,40 +119,34 @@
 
   @for $i from 1 through 12 {
     .sm-#{$i} {
-      margin-left: 15px;
-      margin-right: 15px;
+      @include gutters;
       flex: 0 0 calc(#{percentage($i / 12)} - 30px);
     }
 
     .sm-#{$i}--no-gutters {
-      margin-left: 0;
-      margin-right: 0;
+      @include no-gutters;
       flex: 0 0 percentage($i / 12);
     }
 
     .sm-#{$i}--negative-gutters {
-      margin-left: -15px;
-      margin-right: -15px;
+      @include negative-gutters;
       flex: 0 0 calc(#{percentage($i / 12)} + 30px);
     }
   }
 
   .sm-auto {
     flex: 0 0 auto;
-    margin-left: 15px;
-    margin-right: 15px;
+    @include gutters;
   }
 
   .sm-auto--no-gutters {
     flex: 0 0 auto;
-    margin-left: 0;
-    margin-right: 0;
+    @include no-gutters;
   }
 
   .sm-auto--negative-gutters {
     flex: 0 0 auto;
-    margin-left: -15px;
-    margin-right: -15px;
+    @include negative-gutters;
   }
 }
 
@@ -154,14 +161,11 @@
   }
 
   .md-row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    @include base-row;
   }
 
   .md-stack {
-    display: flex;
-    flex-direction: column;
+    @include base-stack;
   }
 
   .md-block {
@@ -170,40 +174,34 @@
 
   @for $i from 1 through 12 {
     .md-#{$i} {
-      margin-left: 15px;
-      margin-right: 15px;
+      @include gutters;
       flex: 0 0 calc(#{percentage($i / 12)} - 30px);
     }
 
     .md-#{$i}--no-gutters {
-      margin-left: 0;
-      margin-right: 0;
+      @include no-gutters;
       flex: 0 0 percentage($i / 12);
     }
 
     .md-#{$i}--negative-gutters {
-      margin-left: -15px;
-      margin-right: -15px;
+      @include negative-gutters;
       flex: 0 0 calc(#{percentage($i / 12)} + 30px);
     }
   }
 
   .md-auto {
     flex: 0 0 auto;
-    margin-left: 15px;
-    margin-right: 15px;
+    @include negative-gutters;
   }
 
   .md-auto--no-gutters {
     flex: 0 0 auto;
-    margin-left: 0;
-    margin-right: 0;
+    @include no-gutters;
   }
 
   .md-auto--negative-gutters {
     flex: 0 0 auto;
-    margin-left: -15px;
-    margin-right: -15px;
+    @include negative-gutters;
   }
 }
 
@@ -218,14 +216,11 @@
   }
 
   .lg-row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    @include base-row;
   }
 
   .lg-stack {
-    display: flex;
-    flex-direction: column;
+    @include base-stack;
   }
 
   .lg-block {
@@ -234,40 +229,34 @@
 
   @for $i from 1 through 12 {
     .lg-#{$i} {
-      margin-left: 15px;
-      margin-right: 15px;
+      @include gutters;
       flex: 0 0 calc(#{percentage($i / 12)} - 30px);
     }
 
     .lg-#{$i}--no-gutters {
-      margin-left: 0;
-      margin-right: 0;
+      @include no-gutters;
       flex: 0 0 percentage($i / 12);
     }
 
     .lg-#{$i}--negative-gutters {
-      margin-left: -15px;
-      margin-right: -15px;
+      @include negative-gutters;
       flex: 0 0 calc(#{percentage($i / 12)} + 30px);
     }
   }
 
   .lg-auto {
     flex: 0 0 auto;
-    margin-left: 15px;
-    margin-right: 15px;
+    @include gutters;
   }
 
   .lg-auto--no-gutters {
     flex: 0 0 auto;
-    margin-left: 0;
-    margin-right: 0;
+    @include no-gutters;
   }
 
   .lg-auto--negative-gutters {
     flex: 0 0 auto;
-    margin-left: -15px;
-    margin-right: -15px;
+    @include negative-gutters;
   }
 }
 
@@ -279,14 +268,11 @@
   }
 
   .xl-row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    @include base-row;
   }
 
   .xl-stack {
-    display: flex;
-    flex-direction: column;
+    @include base-stack;
   }
 
   .xl-block {
@@ -295,39 +281,33 @@
 
   @for $i from 1 through 12 {
     .xl-#{$i} {
-      margin-left: 15px;
-      margin-right: 15px;
+      @include gutters;
       flex: 0 0 calc(#{percentage($i / 12)} - 30px);
     }
 
     .xl-#{$i}--no-gutters {
-      margin-left: 0;
-      margin-right: 0;
+      @include no-gutters;
       flex: 0 0 percentage($i / 12);
     }
 
     .xl-#{$i}--negative-gutters {
-      margin-left: -15px;
-      margin-right: -15px;
+      @include negative-gutters;
       flex: 0 0 calc(#{percentage($i / 12)} + 30px);
     }
   }
 
   .xl-auto {
     flex: 0 0 auto;
-    margin-left: 15px;
-    margin-right: 15px;
+    @include gutters;
   }
 
   .xl-auto--no-gutters {
     flex: 0 0 auto;
-    margin-left: 0;
-    margin-right: 0;
+    @include no-gutters;
   }
 
   .xl-auto--negative-gutters {
     flex: 0 0 auto;
-    margin-left: -15px;
-    margin-right: -15px;
+    @include negative-gutters;
   }
 }

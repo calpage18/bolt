@@ -87,13 +87,17 @@
     margin-right: -15px;
   }
 
-  .row-auto#{$breakpoint} {
+  .row-auto#{$breakpoint},
+  .row-auto#{$breakpoint}--no-gutters,
+  .row-auto#{$breakpoint}--negative-gutters, {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
   }
 
-  .stack-auto#{$breakpoint} {
+  .stack-auto#{$breakpoint},
+  .stack-auto#{$breakpoint}--no-gutters,
+  .stack-auto#{$breakpoint}--negative-gutters {
     display: flex;
     flex-direction: column;
   }

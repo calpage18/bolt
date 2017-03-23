@@ -4,6 +4,10 @@
 
 @mixin sizedElements($breakpoint, $i) {
 
+  .hidden#{$breakpoint} {
+    display: none;
+  }
+
   /**** DISPLAY VALUES ****/
   .block#{$breakpoint}-#{$i},
   .block#{$breakpoint}-#{$i}--no-gutters,
@@ -81,10 +85,6 @@
 
   .block-auto#{$breakpoint} {
     display: block;
-  }
-
-  .hidden#{$breakpoint} {
-    display: none;
   }
 }
 

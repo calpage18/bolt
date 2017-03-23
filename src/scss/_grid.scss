@@ -63,6 +63,20 @@
 
 .xs-auto {
   flex: 0 0 auto;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.xs-auto--no-gutters {
+  flex: 0 0 auto;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.xs-auto--negative-gutters {
+  flex: 0 0 auto;
+  margin-left: -15px;
+  margin-right: -15px;
 }
 
 /******************
@@ -112,6 +126,20 @@
 
   .sm-auto {
     flex: 0 0 auto;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .sm-auto--no-gutters {
+    flex: 0 0 auto;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .sm-auto--negative-gutters {
+    flex: 0 0 auto;
+    margin-left: -15px;
+    margin-right: -15px;
   }
 }
 
@@ -162,6 +190,20 @@
 
   .md-auto {
     flex: 0 0 auto;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .md-auto--no-gutters {
+    flex: 0 0 auto;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .md-auto--negative-gutters {
+    flex: 0 0 auto;
+    margin-left: -15px;
+    margin-right: -15px;
   }
 }
 
@@ -212,6 +254,20 @@
 
   .lg-auto {
     flex: 0 0 auto;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .lg-auto--no-gutters {
+    flex: 0 0 auto;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .lg-auto--negative-gutters {
+    flex: 0 0 auto;
+    margin-left: -15px;
+    margin-right: -15px;
   }
 }
 
@@ -259,5 +315,19 @@
 
   .xl-auto {
     flex: 0 0 auto;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .xl-auto--no-gutters {
+    flex: 0 0 auto;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .xl-auto--negative-gutters {
+    flex: 0 0 auto;
+    margin-left: -15px;
+    margin-right: -15px;
   }
 }

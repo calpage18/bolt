@@ -411,7 +411,19 @@
   flex: 0 0 calc(100% + 30px); }
 
 .xs-auto {
-  flex: 0 0 auto; }
+  flex: 0 0 auto;
+  margin-left: 15px;
+  margin-right: 15px; }
+
+.xs-auto--no-gutters {
+  flex: 0 0 auto;
+  margin-left: 0;
+  margin-right: 0; }
+
+.xs-auto--negative-gutters {
+  flex: 0 0 auto;
+  margin-left: -15px;
+  margin-right: -15px; }
 
 /******************
 ****** SMALL ******
@@ -573,7 +585,17 @@
     margin-right: -15px;
     flex: 0 0 calc(100% + 30px); }
   .sm-auto {
-    flex: 0 0 auto; } }
+    flex: 0 0 auto;
+    margin-left: 15px;
+    margin-right: 15px; }
+  .sm-auto--no-gutters {
+    flex: 0 0 auto;
+    margin-left: 0;
+    margin-right: 0; }
+  .sm-auto--negative-gutters {
+    flex: 0 0 auto;
+    margin-left: -15px;
+    margin-right: -15px; } }
 
 /*******************
 ****** MEDIUM ******
@@ -735,7 +757,17 @@
     margin-right: -15px;
     flex: 0 0 calc(100% + 30px); }
   .md-auto {
-    flex: 0 0 auto; } }
+    flex: 0 0 auto;
+    margin-left: 15px;
+    margin-right: 15px; }
+  .md-auto--no-gutters {
+    flex: 0 0 auto;
+    margin-left: 0;
+    margin-right: 0; }
+  .md-auto--negative-gutters {
+    flex: 0 0 auto;
+    margin-left: -15px;
+    margin-right: -15px; } }
 
 /******************
 ****** LARGE ******
@@ -897,7 +929,17 @@
     margin-right: -15px;
     flex: 0 0 calc(100% + 30px); }
   .lg-auto {
-    flex: 0 0 auto; } }
+    flex: 0 0 auto;
+    margin-left: 15px;
+    margin-right: 15px; }
+  .lg-auto--no-gutters {
+    flex: 0 0 auto;
+    margin-left: 0;
+    margin-right: 0; }
+  .lg-auto--negative-gutters {
+    flex: 0 0 auto;
+    margin-left: -15px;
+    margin-right: -15px; } }
 
 @media (min-width: 1200px) {
   .hidden-xl {
@@ -1056,7 +1098,17 @@
     margin-right: -15px;
     flex: 0 0 calc(100% + 30px); }
   .xl-auto {
-    flex: 0 0 auto; } }
+    flex: 0 0 auto;
+    margin-left: 15px;
+    margin-right: 15px; }
+  .xl-auto--no-gutters {
+    flex: 0 0 auto;
+    margin-left: 0;
+    margin-right: 0; }
+  .xl-auto--negative-gutters {
+    flex: 0 0 auto;
+    margin-left: -15px;
+    margin-right: -15px; } }
 
 .modal {
   position: fixed;

@@ -13,7 +13,6 @@
   .block#{$breakpoint}-#{$i}--no-gutters,
   .block#{$breakpoint}-#{$i}--negative-gutters {
     display: block;
-    flex: 0 0 calc(#{percentage($i / 12)} - 30px);
   }
 
   .row#{$breakpoint}-#{$i},
@@ -24,7 +23,6 @@
   .stack#{$breakpoint}-#{$i}--negative-gutters {
     display: flex;
     align-items: stretch;
-    flex: 0 0 calc(#{percentage($i / 12)} - 30px);
   }
 
   .row#{$breakpoint}-#{$i},
@@ -46,6 +44,7 @@
   .block#{$breakpoint}-#{$i} {
     margin-left: 15px;
     margin-right: 15px;
+    flex: 0 0 calc(#{percentage($i / 12)} - 30px);
   }
 
   .block#{$breakpoint}-#{$i}--no-gutters,
@@ -53,6 +52,7 @@
   .stack#{$breakpoint}-#{$i}--no-gutters {
     margin-left: 0;
     margin-right: 0;
+    flex: 0 0 percentage($i / 12);
   }
 
   .block#{$breakpoint}-#{$i}--negative-gutters,
@@ -60,6 +60,7 @@
   .stack#{$breakpoint}-#{$i}--negative-gutters {
     margin-left: -15px;
     margin-right: -15px;
+    flex: 0 0 calc(#{percentage($i / 12)} + 30px);
   }
 }
 

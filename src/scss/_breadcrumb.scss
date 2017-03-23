@@ -1,0 +1,69 @@
+.breadcrumb {
+  @include font-standard;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 0;
+  margin-bottom: 0;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.breadcrumb--small {
+  display: flex;
+}
+
+.breadcrumb--large {
+  display: none;
+}
+
+.breadcrumb-item {
+  @include font-standard;
+  padding-right: 8px;
+  margin-bottom: 10px;
+  color: $color-grey-dark;
+
+  &::before {
+    @include font-bold;
+    font-size: 13px;
+    font-family: 'Argos-Icons';
+    // content: $icon-Chevron-Left;
+    color: $color-blue-cobalt;
+    padding-right: 8px;
+    position: relative;
+    top: 0.02em;
+  }
+}
+
+.breadcrumb-item--active {
+  color: $color-grey-dark;
+}
+
+.breadcrumb-item__link {
+  color: $color-grey-charcoal;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+  &:hover {
+    color: $color-grey-dark;
+    text-decoration: none;
+  }
+
+  &:active,
+  &:focus {
+    color: $color-blue-cobalt;
+    outline-offset: 4px;
+    text-decoration: none;
+  }
+}
+
+@media (min-width: $screen-sm-min) {
+  .breadcrumb--small {
+    display: flex;
+  }
+
+  .breadcrumb--large {
+    display: none;
+  }
+}

@@ -1,0 +1,77 @@
+$button-padding-vertical:		6px;
+$button-padding-horizontal: 80px;
+
+@mixin button-colors ($background, $border, $text) {
+  background-color: $background;
+  border-color: $border;
+  color: $text;
+}
+
+.button {
+  height: $control-height-standard;
+  padding: $button-padding-vertical $button-padding-horizontal/2;
+  border: 2px solid;
+  @include button-colors($color-green, $color-green, $color-white);
+  display: inline-block;
+  margin-bottom: 0;
+  @include font-condensed-bold;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-align: center;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  white-space: nowrap;
+  letter-spacing: 0.08em;
+  border-radius: 3px;
+  outline: unset;
+
+  &:hover {
+    @include button-colors($color-green-kelly, $color-green-kelly, $color-white);
+  }
+
+  &:focus {
+    @include button-colors($color-green-dark, $color-green-dark, $color-white);
+  }
+}
+
+.button--secondary {
+  @include button-colors($color-white, $color-green, $color-green);
+
+  &:hover {
+    @include button-colors($color-white, $color-green-kelly, $color-green-kelly);
+  }
+
+  &:focus {
+    @include button-colors($color-white, $color-green-dark, $color-green-dark);
+  }
+}
+
+.button--purple {
+  @include button-colors($color-mauve, $color-mauve, $color-white);
+
+  &:hover {
+    @include button-colors($color-mauve-mid, $color-mauve-mid, $color-white);
+  }
+
+  &:focus {
+    @include button-colors($color-mauve, $color-mauve, $color-white);
+  }
+}
+
+.button--disabled,
+.button[disabled] {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+@media screen and (min-width: $screen-sm-min) {
+  .button {
+    padding: $button-padding-vertical $button-padding-horizontal;
+  }
+
+  .button--half {
+    padding: $button-padding-vertical $button-padding-horizontal/2;
+  }
+}

@@ -1,0 +1,68 @@
+.prices {
+  text-align: center;
+}
+
+.price-align {
+  margin-top: 3px;
+}
+
+.price--now {
+  color: $color-grey-darker;
+  font-size: $font-size-extra-large;
+  line-height: $font-size-extra-large - ($font-size-extra-large * 0.15);
+  @include argos-compressed-bold(capitalize);
+}
+
+.price--was,
+.price--save {
+  font-size: $font-size-medium;
+  line-height: $font-size-medium;
+  @include argos-condensed-book(capitalize);
+
+  &:first-child::after {
+    content: '|';
+    color: $color-grey-dark;
+    font-size: $font-size-medium;
+    line-height: $font-size-medium;
+    padding-left: 7px;
+    padding-right: 4px;
+    position: relative;
+  }
+
+  &:only-child::after {
+    content: none;
+  }
+}
+
+.price--was {
+  color: $color-grey-dark;
+  text-decoration: line-through;
+}
+
+.price--save {
+  color: $color-red;
+}
+
+.price--special {
+  color: $color-red;
+  font-size: $font-size-medium;
+  line-height: $font-size-medium;
+  position: relative;
+  display: inline-block;
+  padding-left: 28px;
+  margin-top: 15px;
+  @include argos-condensed-book(none);
+
+  &::before {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    @extend .argos-icon;
+    @extend .icon-CP-PriceCuts_2:before;
+    padding-right: 0.5em;
+    font-size: 80%;
+  }
+}

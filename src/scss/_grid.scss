@@ -191,7 +191,7 @@
 
   .md-auto {
     flex: 0 0 auto;
-    @include negative-gutters;
+    @include gutters;
   }
 
   .md-auto--no-gutters {

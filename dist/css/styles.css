@@ -764,8 +764,8 @@
     flex: 0 0 calc(100% + 30px); }
   .md-auto {
     flex: 0 0 auto;
-    margin-left: -15px;
-    margin-right: -15px; }
+    margin-left: 15px;
+    margin-right: 15px; }
   .md-auto--no-gutters {
     flex: 0 0 auto;
     margin-left: 0;

@@ -4,10 +4,6 @@
 
 @mixin sizedElements($breakpoint, $i) {
 
-  .hidden#{$breakpoint} {
-    display: none;
-  }
-
   /**** DISPLAY VALUES ****/
   .block#{$breakpoint}-#{$i},
   .block#{$breakpoint}-#{$i}--no-gutters,
@@ -113,6 +109,10 @@
   padding-right: 15px;
 }
 
+.hidden {
+  display: none;
+}
+
 @for $i from 1 through 12 {
   @include sizedElements('', $i);
 }
@@ -124,6 +124,10 @@
 ******************/
 
 @media (min-width: $screen-sm-min) {
+
+  .hidden-sm {
+    display: none;
+  }
 
   @for $i from 1 through 12 {
     @include sizedElements('-sm', $i);
@@ -138,6 +142,10 @@
 
 @media (min-width: $screen-md-min) {
 
+  .hidden-md {
+    display: none;
+  }
+
   @for $i from 1 through 12 {
     @include sizedElements('-md', $i);
   }
@@ -150,6 +158,11 @@
 ******************/
 
 @media (min-width: $screen-lg-min) {
+
+  .hidden-lg {
+    display: none;
+  }
+
   @for $i from 1 through 12 {
     @include sizedElements('-lg', $i);
   }
